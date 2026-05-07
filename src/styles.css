@@ -9,3 +9,87 @@ body {
 code {
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/* ── Light theme (default) ─────────────────────────────────────────────────── */
+:root {
+  --p-bg:          #f5f0e6;
+  --p-hd-bg:       #fffdf8;
+  --p-hd-bd:       #e2d9bf;
+  --p-card-bg:     #ffffff;
+  --p-card-bd:     #e0d3ae;
+  --p-card-hv-bd:  #c9a430;
+  --p-txt-1:       #1a1a0f;
+  --p-txt-2:       #6b6540;
+  --p-txt-3:       #9a9070;
+  --p-in-bg:       #ede8da;
+  --p-in-bd:       #c4ba95;
+  --p-in-tx:       #1a1a0f;
+  --p-in-pl:       #9a9070;
+  --p-in-fc:       #c4952a;
+  --p-btn-bd:      #d4cdb0;
+  --p-btn-tx:      #4a4830;
+  --p-btn-hv:      #e8e2d0;
+  --p-emp-bg:      #ede8da;
+  --p-emp-bd:      #d4cdb0;
+  --p-emp-tx:      #8a8660;
+  --p-logo-bg:     #eee8d8;
+  --p-logo-bd:     #c4952a;
+  --p-logo-ic:     #a07820;
+  --p-logo-t1:     #1a1a0f;
+  --p-logo-t2:     #6b6540;
+  --p-mod-bg:      #ffffff;
+  --p-mod-bd:      #d4c99a;
+  --p-mod-std-bg:  #eef8f2;
+  --p-mod-std-bd:  #88c4a0;
+  --p-mod-pls-bg:  #fef5ea;
+  --p-mod-pls-bd:  #d4a870;
+  --p-mod-tx:      #2a2818;
+  --p-mod-cl-bg:   #f5f0e8;
+  --p-mod-cl-bd:   #c4b472;
+  --p-mod-cl-tx:   #1a1a0f;
+  --p-svc-md-bg:   #e8f4ec;
+  --p-svc-md-bd:   #70a880;
+  --p-svc-md-tx:   #2a5a38;
+}
+
+/* ── Dark theme ────────────────────────────────────────────────────────────── */
+.dark {
+  --p-bg:          #14170f;
+  --p-hd-bg:       #171a12;
+  --p-hd-bd:       #4e4b31;
+  --p-card-bg:     #efe1ba;
+  --p-card-bd:     #4d4c31;
+  --p-card-hv-bd:  #d0ad47;
+  --p-txt-1:       #f1e7c7;
+  --p-txt-2:       #a9aa82;
+  --p-txt-3:       #8d8963;
+  --p-in-bg:       #232719;
+  --p-in-bd:       #5b5739;
+  --p-in-tx:       #f6edcf;
+  --p-in-pl:       #8d8963;
+  --p-in-fc:       #d2b451;
+  --p-btn-bd:      #4e4b31;
+  --p-btn-tx:      #d8d0aa;
+  --p-btn-hv:      #262a1b;
+  --p-emp-bg:      #1c2016;
+  --p-emp-bd:      #4e4b31;
+  --p-emp-tx:      #a9aa82;
+  --p-logo-bg:     #29351f;
+  --p-logo-bd:     #d2b451;
+  --p-logo-ic:     #f4cf66;
+  --p-logo-t1:     #f8e4a5;
+  --p-logo-t2:     #a9aa82;
+  --p-mod-bg:      #f0e3bf;
+  --p-mod-bd:      #706443;
+  --p-mod-std-bg:  #fff3cf;
+  --p-mod-std-bd:  #b7a16a;
+  --p-mod-pls-bg:  #fff3cf;
+  --p-mod-pls-bd:  #b9854d;
+  --p-mod-tx:      #3b3a28;
+  --p-mod-cl-bg:   #f4e7c4;
+  --p-mod-cl-bd:   #615832;
+  --p-mod-cl-tx:   #1e2318;
+  --p-svc-md-bg:   #312b1e;
+  --p-svc-md-bd:   #9c833e;
+  --p-svc-md-tx:   #f4cf66;
+}
