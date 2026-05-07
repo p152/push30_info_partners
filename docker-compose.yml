@@ -21,7 +21,7 @@ services:
       - node_modules_preview:/app/node_modules
     ports:
       - "4173:4173"
-    command: sh -c "npm install && npm install @rollup/rollup-linux-x64-musl --no-save && npm run build && NODE_ENV=production npx serve dist/client -l 4173"
+    command: sh -c "rm -f package-lock.json && npm install && npm run build && NODE_ENV=production npx serve dist/client -l 4173"
 
 volumes:
   node_modules_dev:
