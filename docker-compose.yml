@@ -4,7 +4,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-      - node_modules:/app/node_modules
+      - node_modules_dev:/app/node_modules
     ports:
       - "3000:3000"
     environment:
@@ -18,12 +18,13 @@ services:
       - preview
     volumes:
       - .:/app
-      - node_modules:/app/node_modules
+      - node_modules_preview:/app/node_modules
     ports:
       - "4173:4173"
     environment:
       - NODE_ENV=production
-    command: sh -c "npm install && npm run build && npx serve dist/client -l 4173"
+    command: sh -c "npm install && npm install @rollup/rollup-linux-x64-musl --no-save && npm run build && npx serve dist/client -l 4173"
 
 volumes:
-  node_modules:
+  node_modules_dev:
+  node_modules_preview:
